@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://mbs.yyuap.com:8080/ump/config/select/download?tablename=worklog_install&worklogid=81622&filename=rd_app.ipa</string>
+					<string>http://125.35.5.120:8088/df/access/public/login/rd_app.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -52,7 +52,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>http://mbs.yyuap.com:8080/ump/config/select/download?tablename=worklog_install&worklogid=81622&filename=rd_app.ipa</string>
+				<string>http://125.35.5.120:8088/df/access/public/login/rd_app.ipa</string>
 				<key>bundle-version</key>
 				<string>1.0.6</string>
 				<key>kind</key>
