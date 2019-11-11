@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://mbs.yyuap.com:8080/ump/config/select/download?tablename=worklog_install&worklogid=81622&filename=rd_app.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://mbs.yyuap.com:443/ump/portalservice/getAppIcon/80988</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://mbs.yyuap.com:443/ump/portalservice/getAppIcon/80988</string>
+				</dict>
+			</array>
+			<key>NSAppTransportSecurity</key>
+			<dict>
+			  <key>NSExceptionDomains</key>
+			  <dict>
+			    <!--your domain-->
+			    <key>lidaren.com</key>
+			    <dict>
+			      <!--Include to allow subdomains-->
+			      <key>NSIncludesSubdomains</key>
+			      <true/>
+			      <!--Include to allow insecure HTTP requests-->
+			      <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+			      <true/>
+			      <!--Include to specify minimum TLS version-->
+			      <key>NSTemporaryExceptionMinimumTLSVersion</key>
+			      <string>TLSv1.1</string>
+			    </dict>
+			  </dict>
+			</dict>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>http://mbs.yyuap.com:8080/ump/config/select/download?tablename=worklog_install&worklogid=81622&filename=rd_app.ipa</string>
+				<key>bundle-version</key>
+				<string>1.0.6</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string></string>
+				<key>title</key>
+				<string>联网监督</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
