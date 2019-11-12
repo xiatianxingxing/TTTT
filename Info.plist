@@ -30,29 +30,10 @@
 					<string>https://mbs.yyuap.com:443/ump/portalservice/getAppIcon/80988</string>
 				</dict>
 			</array>
-			<key>NSAppTransportSecurity</key>
-			<dict>
-			  <key>NSExceptionDomains</key>
-			  <dict>
-			    <!--your domain-->
-			    <key>lidaren.com</key>
-			    <dict>
-			      <!--Include to allow subdomains-->
-			      <key>NSIncludesSubdomains</key>
-			      <true/>
-			      <!--Include to allow insecure HTTP requests-->
-			      <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
-			      <true/>
-			      <!--Include to specify minimum TLS version-->
-			      <key>NSTemporaryExceptionMinimumTLSVersion</key>
-			      <string>TLSv1.1</string>
-			    </dict>
-			  </dict>
-			</dict>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>http://125.35.5.120:8088/df/access/public/login/rd_app.ipa</string>
+				<string>com.yonyou.uap.mobile</string>
 				<key>bundle-version</key>
 				<string>1.0.6</string>
 				<key>kind</key>
